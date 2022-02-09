@@ -8,7 +8,7 @@ let weather = {
             
         ).then((response) => response.json()).then((data) =>{
             weather.displaystatus(data);
-        })
+        }).catch(error => alert("Are Vai Andaji Den Ken??🤷🤷"));
     },
     displaystatus: (data) =>{
         // get status form api
