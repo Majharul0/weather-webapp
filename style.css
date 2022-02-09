@@ -155,3 +155,8 @@ body {
   color: #ffffffc9;
   font-weight: 500;
 }
+@media screen and (max-width: 360px) {
+  .more-info {
+    padding: 0 1rem;
+  }
+}
